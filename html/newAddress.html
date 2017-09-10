@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title></title>
+    <script src="../lib/bower_components/jquery/dist/jquery.min.js"></script>
+    <link rel="stylesheet" href="../lib/bower_components/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../lib/bower_components/font-awesome-4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="../css/newAddress.css">
+    <script src="../js/newAddress.js"></script>
+</head>
+<body>
+<div id="i-header" class="noPadding col-xs-12 text-center">
+    <i class="iconAddress col-xs-1">&lt;</i>
+    <p class="col-lg-10">新增地址</p>
+</div>
+<ul id="i-body" class="noPadding noMargin col-xs-12">
+    <li>
+        <div class="container">
+        <label for="inputName" class="info col-xs-3">联系人</label>
+        <p class="col-xs-8 noPadding">
+           <input type="text" id="inputName">
+        </p>
+        <i class="icon glyphicon glyphicon-user col-xs-1 noPadding text-center"></i>
+        </div>
+    </li>
+    <li>
+        <div class="container">
+            <label for="inputNum" class="info col-xs-3">联系电话</label>
+            <p class="col-xs-9 noPadding">
+                <input type="text" id="inputNum">
+            </p>
+        </div>
+    </li>
+    <li>
+        <div class="container">
+            <label for="inputAdd" class="info col-xs-3">收货地址</label>
+            <p class="col-xs-9 noPadding">
+                <input type="text" id="inputAdd">
+            </p>
+        </div>
+    </li>
+    <li>
+        <div class="container">
+            <label class="info col-xs-11">设为默认地址</label>
+                <div id="inputDefault" class="noPadding col-xs-1 checkbox glyphicon glyphicon-ok text-center"></div>
+        </div>
+    </li>
+</ul>
+
+<div class="container">
+   <div id="i-footer" class="col-xs-12 text-center "><p>保存</p></div>
+</div>
+</body>
+</html>

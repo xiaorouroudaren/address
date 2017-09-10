@@ -1,0 +1,79 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+  height: 100vh;
+  background: #EFEFEF;
+}
+html{
+  font-size: 12px;
+}
+.noMargin{
+  margin: 0;
+}
+.noPadding{
+  padding: 0;
+}
+#i-header{
+  height: 4rem;
+  margin-bottom: 1rem;
+  padding: 1rem;
+  font-size: 1.5rem;
+  color: #ffffff;
+  background:#F18300;
+}
+#i-newAdd{
+  height: 4rem;
+  margin-bottom: 1rem;
+  padding: 1rem;
+  font-size: 1.5rem;
+  color: #ffffff;
+  border-radius: 5px;
+  background:#F18300;
+}
+#i-body{
+  font-size: 1.2rem;
+  list-style-type: none;
+  li{
+    padding-top:1rem;
+    height: 10rem;
+    border: 1px solid #ffffff;
+    border-radius: 5px;
+    margin-bottom:1rem;
+    background: #ffffff;
+  }
+  @at-root .choose{
+    padding-top: 1rem;
+    border-top: 1px solid #dcdcdc;
+  }
+  a{
+    display: inline-block;
+    font-size: 1rem;
+    height: 2rem;
+    line-height: 2rem;
+    color: #9a9a9a;
+    text-decoration: none;
+    border: 1px solid #9a9a9a;
+    border-radius:3px;
+  }
+  @at-root .address{
+    margin-bottom: 1rem;
+  }
+  @at-root .radioButton{
+    width: 15px;
+    height: 15px;
+    font-size: 1rem;
+    color: #ffffff;
+    background: rgba(0, 0, 0, 0);
+    border: 1px solid #dcdcdc;
+    border-radius: 50%;
+  }
+}
+input{
+  width: 100%;
+  outline: none;
+  border: none;
+  margin-top: 2rem;
+  height: 3rem;
+}
